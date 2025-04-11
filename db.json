@@ -1,44 +1,14 @@
-[
-    {
-        "name": "Judy Buckridge",
-        "email": "qharvey@yahoo.com",
-        "address": "6887 Kody Parkways\nWest Julienville, NM 57756",
-        "phone": "504.847.8010 x685",
-        "website": "https://examplefile.com"
-    },
-    {
-        "name": "Dino Zemlak",
-        "email": "dschulist@hotmail.com",
-        "address": "984 Reina Landing\nDashawnview, TN 50703-9539",
-        "phone": "1-617-763-1606 x4842",
-        "website": "https://examplefile.com"
-    },
-    {
-        "name": "Mr. Christopher Lind PhD",
-        "email": "cbradtke@frami.com",
-        "address": "9215 Amely Mount Suite 407\nWest Pabloberg, CA 15041-2207",
-        "phone": "(683) 927-2119 x56096",
-        "website": "https://examplefile.com"
-    },
-    {
-        "name": "Dr. Jennings Brakus III",
-        "email": "kitty79@torphy.com",
-        "address": "23935 Ron Spring Apt. 994\nHelmerbury, GA 68177",
-        "phone": "(206) 517-3990 x97762",
-        "website": "https://examplefile.com"
-    },
-    {
-        "name": "Dr. Maximillia Jones Jr.",
-        "email": "klein.thad@gmail.com",
-        "address": "610 Mike Station\nSchinnerview, MA 91709",
-        "phone": "434-797-0159 x647",
-        "website": "https://examplefile.com"
-    },
-    {
-        "name": "Dr. Baron Kunde DVM",
-        "email": "wilhelm80@hotmail.com",
-        "address": "491 Elisabeth Mountain\nNew Leland, WA 70732-7234",
-        "phone": "516.968.2753 x085",
-        "website": "https://examplefile.com"
-    }
-]
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
